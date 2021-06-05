@@ -14,7 +14,7 @@ class Home extends Component {
           title="Dobrodošli u naš studio!"
           subtitle="Drago nam je da ste ovde"
           bottomtext="Pogledaj više"
-          link="/services"
+          link="/about"
           showbutton={true}
           image={image}
         />

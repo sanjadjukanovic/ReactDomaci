@@ -4,6 +4,7 @@ import image from "../assets/about.jpg";
 import one from "../assets/portfolio/01-full.jpg";
 import two from "../assets/portfolio/02-full.jpg";
 import three from "../assets/portfolio/03-full.jpg";
+import { Link } from "react-router-dom";
 
 class About extends Component {
   render() {
@@ -121,6 +122,9 @@ class About extends Component {
                         <br />
                         priče!
                       </h4>
+                      <Link className="btn btn-primary" to="/contact">
+                        Prijavi se
+                      </Link>
                     </div>
                   </li>
                 </ul>
